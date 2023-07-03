@@ -28,6 +28,6 @@ func createLogger(fname string) *hydraLogger {
 
 	return &hydraLogger{
 		filename: fname,
-		Logger:   log.New(file, "Hydra", log.Lshortfile),
+		Logger:   log.New(file, "Hydra  ", log.Lshortfile),
 	}
 }
